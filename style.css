@@ -1,0 +1,504 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+
+#header{
+    background-image: url('./images/bg-image');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+}
+
+.nav-separator{
+
+        width: 100%;
+        height: 1.5px;
+        background-color: rgba(250, 0, 0,0.3);
+        margin-bottom: 10rem;
+
+      
+}
+
+.logo{
+    color: red;
+    font-weight: 200;
+    font-size: 2rem;
+    margin-bottom: 5vh;
+
+}
+
+.burger{
+    z-index: 6;
+}
+
+nav{
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem 5rem 0 5rem;
+    /*background-color: red;*/
+    z-index: 5;
+
+}
+
+.nav-links{
+    display: grid;
+    align-content: center;
+    justify-content: center;
+    width: 25%;
+    background-color:rgba(211, 0, 0, 0.5);
+    position: absolute;
+    top:0;
+    right: 0px;
+    height: 100%;
+    align-items: center;
+    z-index: 2;
+    margin-top: 1vh;
+         border-radius: 0rem 0 0 10rem;
+}
+
+
+.nav-links a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-links .item-link{
+    list-style-type: none;
+    margin-top : 5rem;
+    
+}
+
+.line_1,
+.line_2,
+.line_3{
+    width: 35px;
+    height: 2px;
+    background-color: thistle;
+    margin-top: 3px;
+}
+
+nav .burger{
+justify-self: flex-end;
+cursor: pointer;
+
+}
+
+/* Content */
+
+.heading-content{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.separator-short{
+    width: 100px;
+    height: 5px;
+    background-color: brown;
+}
+
+
+.heding{
+    color: blanchedalmond;
+    margin-bottom: 1.5rem;
+    font-weight: 200;
+}
+
+.heading-text{
+    color: blanchedalmond;
+    margin-bottom: 1.5rem;
+    font-weight: 200;
+
+}
+
+/*Button*/
+
+.heading-btn{
+    border: 1px solid red;
+    background-color: red;
+    color: seashell;
+    padding: 0.5rem 1rem;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+    margin-bottom: 4rem;
+}
+
+.heading-btn:hover{
+    border: 1px solid red;
+    background-color: seashell;
+    color: red;
+    padding: 0.5rem 1rem;
+    transition: ease-in-out;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.separator-long{
+    width: 100%;
+    height: 1.5px;
+    margin-top: 10vh;
+    background-color: red;
+    margin-bottom: 5rem;
+  
+
+}
+
+/* ABOUT- ME*/
+
+.about-me{
+    background-color: cornsilk;
+    padding: 5rem 5rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    color: #333;
+    font-family: 'Roboto';
+    font-weight: 200;
+}
+
+.about-me-text{
+justify-self: center;
+align-self: center;
+}
+
+.about-me-get-in-touch{
+    justify-self: center;
+    align-self: center;
+}
+
+.phone{
+    width: 300px;
+    border-radius: 35px;
+    padding: 1rem 0.2rem 0.2rem 0.2rem;
+    background-color: #333;
+
+
+}
+
+.screen{
+    width: 250px;
+    height: 150px;
+    background: url('./images/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 3rem auto;
+    
+}
+.contact-page{
+    width: 230px;
+    margin: 0 auto;   
+    border: 1px rgb(167, 163, 163) solid;
+    margin-top: -4.5rem;
+    border-radius: 1rem 1rem 0 0;
+    background-color: rgb(88, 86, 86);
+    padding: 0 0 1rem 0;
+    
+
+}
+
+::placeholder{
+    color: red;
+}
+
+.phone-heading{
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+.form-item{
+    width: 100%;
+    margin: 6px 0;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid red;
+}
+
+a img{
+    margin: 0 35% -3.4rem 25%
+}
+
+.phone > p{
+    text-align: center;
+    padding-top: 2rem;
+}
+
+.input-group input{
+    color:rgb(231, 218, 218);
+    font-family: 'roboto';
+    font-weight: 200;
+}
+
+.phone-heading{
+    text-align: center;
+    color: #ffffff;
+}
+
+.about-me-heading{
+    font-weight: 400;
+    font-size: 2rem;
+    columns: #333333;;
+}
+
+.about-me-heading span{
+    color: red;
+}
+
+.about-me-content{
+    font-weight: 200;
+    font-size: 1.2rem;
+    padding: 0 -5rem 0 1rem;
+}
+
+/* SERVICE */
+.service{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #333;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /*#00a5ff;*/
+
+}
+
+
+.skills{
+
+  padding: 1.5rem;
+  margin-top: 0 !important;
+  text-align: end !important;
+}
+
+.skills-2{
+   padding: 1.5rem;
+   margin-top: 0 !important;
+   
+}
+.me img{
+   margin-bottom: -20rem;
+}
+
+/* RECENT WORKS */
+
+.recent-work{
+    min-height: 500px;
+}
+
+
+
+/* CONTACT ME */
+
+.contact{
+    background: #333;
+    color: #ccc;
+    padding: 5rem;
+    font-family: 'Roboto';
+}
+
+.contact > h1{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 200;
+}
+
+.form-container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+}
+
+.form{
+    width: 60%;
+    margin: 0 auto;
+    color: #ccc;
+}
+
+
+::placeholder{
+    color: #ccc;
+}
+.form-group input,
+#msg{
+    width: 100%;
+    padding: 1rem 1rem 1rem 1rem;
+    margin-top: 1rem;
+    border: 1px rgb(209, 202, 202) solid;
+    background: transparent;
+    color: white;
+    font-family: 'Roboto';
+    border-radius: 2rem 0 2rem 0;
+    cursor: auto;
+
+}
+
+input:focus{
+    outline: none;
+}
+
+
+.form-group option{
+    width: 100%;
+    background: #ccc;
+    color: #333333;
+    font-family: 'Roboto';
+    font-size: 1rem;
+
+}
+
+.form-group select{
+    width: 100%;
+    padding: 1rem;
+    }
+
+
+.select-double{
+    width: 100%;
+    padding: 1rem;
+    margin-top: 1.5rem;
+    border: 1px solid white;
+    background: transparent;
+    color: white;   
+}
+
+.form .submit{
+    color: #ccc;
+    background-color: red;
+    border: transparent;
+    width: 30%;
+    padding: 1rem;
+    margin: 1rem 35% 1rem 35%;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.sm{
+    color: rgb(133, 129, 133);
+    font-size: 0.7rem;
+    text-align: center;
+    margin-top: -0.5rem;
+}
+
+.sm span a{
+    color: red;
+}
+
+
+/* FOOTER */
+
+footer {
+    background: black;
+    text-align: center;
+
+    padding: 1.5rem;
+}
+
+footer p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    font-weight: 200;
+    color: rgb(231, 230, 229);
+}
+
+/* **********************************************************
+    MY SKILLS
+*-***********************************************************/
+
+
+/*
+
+MY WORK 2
+
+*/
+
+
+
+/* END MY WORK */
+
+
+/* MOBILE */
+
+@media screen and (max-width: 680px){
+    
+
+
+    .nav-links{
+        width: 50%;
+        border-radius: 0rem 0 0 10rem
+     }
+
+    /* ABOUT ME */
+
+ .about-me{
+     display: grid;
+     grid-template-columns: 90%;
+     margin: 0 auto;
+     text-align: center;
+     /*grid-gap: 5rem;*/
+ }
+
+
+ a img{
+    margin: 0 35% -2.4rem 32%
+}
+
+.contact-page{
+    width: 200px;
+    margin: 0 auto;   
+    border: 1px rgb(211, 207, 207) solid;
+    margin-top: -4.5rem;
+    border-radius: 1rem 1rem 0 0;
+    background-color: rgb(168, 161, 161);
+    padding: 0 1rem 0 1rem;
+}
+
+.input-group input{
+    color:rgb(34, 33, 33);
+    font-family: 'roboto';
+    font-weight: 200;
+}
+
+/* END ABOUT ME */
+
+/* SERVICES */
+
+ .service{
+
+     grid-template-columns: 1fr;
+    
+ }
+
+ .skills{
+
+    padding: 1.5rem;
+    margin-top: 0 !important;
+    text-align: center !important;
+  }
+  
+  .skills-2{
+     padding: 1.5rem;
+     margin-top: 0 !important;
+     text-align: center !important;     
+  }
+
+  .me{
+      display: none;
+  }
+
+  /* END SERVICES */
+
+  /* CONTACT ME */
+
+  .form{
+    width: 100%;
+    margin: 0 auto;
+    color: #ccc;
+   
+    }
+
+}
+
+
+
+
