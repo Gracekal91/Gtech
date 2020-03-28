@@ -194,7 +194,7 @@ align-self: center;
     margin-top: -4.5rem;
     border-radius: 1rem 1rem 0 0;
     background-color: rgb(88, 86, 86);
-    padding: 0 0 1rem 0;
+    padding: 0 0.4rem 1rem 0.4rem;
     
 
 }
@@ -214,10 +214,18 @@ align-self: center;
     background: transparent;
     border: 0;
     border-bottom: 1px solid red;
+    color:  white;
+}
+
+.input-group{
+    color: white !important;
+}
+.input-group input:focus{
+    outline: none;
 }
 
 a img{
-    margin: 0 35% -3.4rem 25%
+    margin: 0 35% -4rem 34%
 }
 
 .phone > p{
@@ -289,7 +297,11 @@ a img{
 }
 
 /* RECENT WORKS */
+/*GET IN TOUCH */
 
+.form-get-in-touch{
+    padding: 0.5rem;
+}
 
 /* HOLD CONTACT
 
@@ -399,6 +411,11 @@ CONTACT 2 */
     height: 500px;
     width: 100%;
     padding: 9rem 0 0 0;
+    font-family: 'roboto';
+    background-image: url('./images/bg-contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .myForm{
